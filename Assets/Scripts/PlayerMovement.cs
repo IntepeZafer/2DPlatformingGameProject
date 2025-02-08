@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    private Rigidbody2D body;
-    [SerializeField] private float speed;
+    private Rigidbody2D body; // The Rigidbody2D component
+    [SerializeField] private float speed; // The speed of the player
     private void Awake() // Awake is called before Start
     {
         body = GetComponent<Rigidbody2D>(); // Get the Rigidbody2D component
